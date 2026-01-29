@@ -42,16 +42,20 @@
 							<p class="font-medium leading-relaxed text-slate-100">{description}</p>
 
 							<div class="invisible flex gap-x-5 group-hover:visible">
-								<a href={GitHub} target="_blank" rel="noreferrer" aria-label="Github Link">
-									<GitHubIcon
-										class="h-8 w-8 text-slate-100 transition duration-300 ease-in-out hover:scale-105"
-									/>
-								</a>
-								<a href={Link} target="_blank" rel="noreferrer" aria-label="Project Link">
-									<LinkIcon
-										class="h-8 w-8 text-slate-100 transition duration-300 ease-in-out hover:scale-105"
-									/>
-								</a>
+								{#if GitHub}
+									<a href={GitHub} target="_blank" rel="noreferrer" aria-label="Github Link">
+										<GitHubIcon
+											class="h-8 w-8 text-slate-100 transition duration-300 ease-in-out hover:scale-105"
+										/>
+									</a>
+								{/if}
+								{#if Link}
+									<a href={Link} target="_blank" rel="noreferrer" aria-label="Project Link">
+										<LinkIcon
+											class="h-8 w-8 text-slate-100 transition duration-300 ease-in-out hover:scale-105"
+										/>
+									</a>
+								{/if}
 							</div>
 						</div>
 

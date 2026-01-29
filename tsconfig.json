@@ -5,10 +5,13 @@
 		"checkJs": true,
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"noEmit": true,
 		"resolveJsonModule": true,
 		"skipLibCheck": true,
 		"sourceMap": true,
-		"strict": true,
-		"moduleResolution": "bundler"
-	}
+		"strict": true
+	},
+	"exclude": ["node_modules", ".svelte-kit", "postcss.config.cjs", "svelte.config.js", "tailwind.config.cjs", "vite.config.ts"]
 }

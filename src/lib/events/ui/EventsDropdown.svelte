@@ -7,7 +7,8 @@
 	const yearOptions = [
 		{ labelKey: 'event22', value: '2022 - 2023' },
 		{ labelKey: 'event23', value: '2023 - 2024' },
-		{ labelKey: 'event24', value: '2024 - 2025' }
+		{ labelKey: 'event24', value: '2024 - 2025' },
+		{ labelKey: 'event25', value: '2025 - 2026' }
 	];
 
 	function handleYearChange(event: Event) {

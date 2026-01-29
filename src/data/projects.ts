@@ -3,7 +3,7 @@ export interface project {
 	description: string;
 	image: string;
 	imageAlt: string;
-	GitHub: string;
+	GitHub: string | null;
 	Link: string;
 }
 
@@ -31,6 +31,15 @@ const projectsData: project[] = [
 		imageAlt: 'A ScreenShot Of Game Camp Project',
 		GitHub: 'https://github.com/GDSC-YU/game-camp',
 		Link: 'https://gamecamp-gdscyu.netlify.app/'
+	},
+	{
+		name: '✨ Fazzah – فزّة ✨',
+		description:
+			'🎯 No logins. No hassle. Just quizzes & fun!\n🕹 Create or join games instantly on fazzah.net\n🚀 Play now and challenge your friends!',
+		image: '/images/projects/Fazzah.png',
+		imageAlt: 'Fazzah – فزّة quiz game',
+		GitHub: null,
+		Link: 'http://fazzah.net/'
 	}
 ];
 

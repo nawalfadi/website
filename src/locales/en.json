@@ -12,9 +12,11 @@
 	"team22": "2022 - 2023 Team",
 	"team23": "2023 - 2024 Team",
 	"team24": "2024 - 2025 Team",
+	"team25": "2025 - 2026 Team",
 	"event22": "2022 - 2023 Events",
 	"event23": "2023 - 2024 Events",
 	"event24": "2024 - 2025 Events",
+	"event25": "2025 - 2026 Events",
 	"showMore": "Show The Rest 😎",
 	"HideTeam": "Hide The Rest 😎",
 	"connect": "Connect With Us 📩",
@@ -380,6 +382,55 @@
 		"22name17": {
 			"name": "Maya Al-Saeed",
 			"position": "Account Manager"
+		},
+
+		"26name1": {
+			"name": "Ahmed Alabo",
+			"position": "Club President"
+		},
+		"26name2": {
+			"name": "Raghad Alsultan",
+			"position": "Club President"
+		},
+		"26name3": {
+			"name": "Nawaf Al ibrahim",
+			"position": "Club Vice President"
+		},
+		"26name4": {
+			"name": "Sham Kottish",
+			"position": "Club Vice President"
+		},
+		"26name5": {
+			"name": "Mohamed Sawan",
+			"position": "Tech & Innovation Leader"
+		},
+		"26name6": {
+			"name": "Nawal Fadi",
+			"position": "Tech & Innovation Leader"
+		},
+		"26name7": {
+			"name": "Ahmad Abu Diab",
+			"position": "Pr & Events Leader"
+		},
+		"26name8": {
+			"name": "Bareeq Shahin",
+			"position": "Pr & Events Leader"
+		},
+		"26name9": {
+			"name": "Nawal Khattab",
+			"position": "Social Media Leader"
+		},
+		"26name10": {
+			"name": "Mustafa Kullab",
+			"position": "Social Media Leader"
+		},
+		"26name11": {
+			"name": "Ahmad Ghanoum",
+			"position": "Design Team"
+		},
+		"26name12": {
+			"name": "Mays Alawi",
+			"position": "Design Team"
 		}
 	},
 
