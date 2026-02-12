@@ -1,6 +1,8 @@
 import { leads22, engineering22, design22, pr22, content22 } from './team22';
 import { leads23, engineering23, design23, pr23, content23 } from './team23';
 import { leads24, engineering24, design24, pr24, content24 } from './team24';
+import { leads25, engineering25, design25, pr25, content25 } from './team25';
+import { leads26, engineering26, design26, pr26, content26 } from './team26';
 
 export interface SocialLinks {
 	twitter?: string;
@@ -46,5 +48,12 @@ export const teamData = {
 		Design: design24,
 		Pr: pr24,
 		Content: content24
+	},
+	'2025 - 2026': {
+		Leads: leads26,
+		Engineering: engineering26,
+		Design: design26,
+		Pr: pr26,
+		Content: content26
 	}
 };

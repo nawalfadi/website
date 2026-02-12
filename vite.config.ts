@@ -11,6 +11,11 @@ export default defineConfig({
 			compiler: 'svelte'
 		})
 	],
+	server: {
+		watch: {
+			usePolling: true
+		}
+	},
 	ssr: {
 		noExternal: ['three']
 	}

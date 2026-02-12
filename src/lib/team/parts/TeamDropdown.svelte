@@ -10,7 +10,8 @@
 	const yearOptions = [
 		{ labelKey: 'team22', value: '2022 - 2023' },
 		{ labelKey: 'team23', value: '2023 - 2024' },
-		{ labelKey: 'team24', value: '2024 - 2025' }
+		{ labelKey: 'team24', value: '2024 - 2025' },
+		{ labelKey: 'team25', value: '2025 - 2026' }
 	];
 
 	function handleYearChange(event: Event) {
