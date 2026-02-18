@@ -16,6 +16,16 @@
 	<div class="container mx-auto p-5">
 		<div class="mx-auto md:w-2/3 lg:w-1/2">
 			<Form />
+			<!-- Direct email option - links to club Outlook account -->
+			<p class="mb-4 text-center text-sm font-medium">
+				{$t('orEmailUs')}
+				<a
+					href="mailto:gdsc@yu.edu.sa"
+					class="ml-1 font-semibold text-google-green underline transition hover:text-google-green/80"
+				>
+					gdsc@yu.edu.sa
+				</a>
+			</p>
 			<!-- Seperator Line -->
 			<LogoBreak />
 			<!-- Email, Location -->

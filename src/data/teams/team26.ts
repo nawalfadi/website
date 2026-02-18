@@ -24,7 +24,11 @@ export const leads26: TeamMember[] = [
 		nameKey: '26name3',
 		positionKey: '26name3',
 		team: ['Leads'],
-		social: {}
+		image: '/images/humans/Nawaf Al ibrahim.png',
+		social: {
+			linkedin:
+				'https://www.linkedin.com/in/nawaf-alibrahim-955b89347?utm_source=share_via&utm_content=profile&utm_medium=member_ios'
+		}
 	},
 	{
 		nameKey: '26name4',
@@ -43,7 +47,6 @@ export const engineering26: TeamMember[] = [
 		nameKey: '26name5',
 		positionKey: '26name5',
 		team: ['Engineering'],
-		image: '/images/humans/Mohamed-Sawan.JPG',
 		social: {
 			github: 'https://github.com/mohamedsawann',
 			linkedin: 'https://www.linkedin.com/in/mohammed-sawan-56ba6b251/'
@@ -54,6 +57,7 @@ export const engineering26: TeamMember[] = [
 		positionKey: '26name6',
 		team: ['Engineering'],
 		social: {
+			github: 'https://github.com/nawalfadi',
 			linkedin: 'https://www.linkedin.com/in/nawal-fadi-085a4431a/'
 		}
 	}
@@ -73,6 +77,7 @@ export const pr26: TeamMember[] = [
 		nameKey: '26name8',
 		positionKey: '26name8',
 		team: ['Pr'],
+		image: '/images/humans/Bareeq Shahin.png',
 		social: {
 			linkedin:
 				'https://www.linkedin.com/in/bareeq-shahin-79a4b9335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
@@ -109,6 +114,7 @@ export const design26: TeamMember[] = [
 		nameKey: '26name11',
 		positionKey: '26name11',
 		team: ['Design'],
+		image: '/images/humans/Ahmad Ghanoum.png',
 		social: {
 			linkedin: 'https://www.linkedin.com/in/ahmad-ghanoum-9a13041a7/'
 		}
