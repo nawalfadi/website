@@ -3,10 +3,10 @@
 </script>
 
 <a
-	href="https://gdsc.community.dev/al-yamamah/"
+	href="https://chat.whatsapp.com/HZ8mbUj9ae8EUMEt8IXdcp"
 	target="_blank"
 	rel="noreferrer"
-	aria-label="Check our chapter on the official Google DSC website"
+	aria-label="Join our WhatsApp group"
 	class="group relative inline-block text-lg"
 >
 	<!-- Button -->

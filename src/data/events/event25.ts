@@ -43,5 +43,69 @@ export const eventsData = [
 			'Happy 95th Saudi National Day We celebrate better with GDG🫡💚 A celebration of unity, pride, and progress. From the roots of our heritage to the heights of our vision, together, we build a future of strength, growth, and limitless opportunities.',
 		image: '/images/events/2025-2026/SA 1.jpeg',
 		image2: '/images/events/2025-2026/SA 2.jpeg'
+	},
+	{
+		type: 'Community Events',
+		typeSlug: 'community-events',
+		title: 'Breast Cancer Awareness Month 🎀',
+		description:
+			'In honor of Breast Cancer Awareness Month\n\nWe asked the important questions, and got the answers everyone should know. We developed a special memory card game following the theme of spreading awareness.\n\nLet\'s learn, prevent, and protect — together! 🎀💕',
+		image: '/images/events/2025-2026/Breast Cancer Awareness.jpeg'
+	},
+	{
+		type: 'Community Events',
+		typeSlug: 'community-events',
+		title: 'GDG Summer Festival ☀️',
+		description:
+			'A peek into the GDG Summer Festival ☀️⛱️, fun time, creativity, and a whole lot of passion behind the scenes!',
+		image: '/images/events/2025-2026/GDG Summer Festival.jpeg'
+	},
+	{
+		type: 'Events',
+		typeSlug: 'community-events',
+		title: 'Cyber Security Gallery 🤖',
+		description:
+			'Cracking codes, stopping threats, shaping the future at our Cyber Security Gallery 🤖',
+		image: '/images/events/2025-2026/Cyber Security Gallery.jpeg'
+	},
+	{
+		type: 'Workshop',
+		typeSlug: 'workshop',
+		title: 'AI Workshop✨',
+		description:
+			'A glimpse into our AI Workshop where we explored how intelligence learns, adapts, and connects with us as humans. 🤖✨',
+		image: '/images/events/2025-2026/AI Workshop.jpeg'
+	},
+	{
+		type: 'Workshop',
+		typeSlug: 'workshop',
+		title: 'GitHub Foundations workshop🚀',
+		description:
+			'What a session! 🤩 Our Git & GitHub Foundations workshop with Mohammed Sawan was a success 🎉\n\nFrom version control basics to GitHub collaboration 🚀\n\nThanks to everyone who joined 🙌 Stay tuned for more! 🔥',
+		image: '/images/events/2025-2026/GitHub Foundations Workshop.jpeg'
+	},
+	{
+		type: 'Visiting Event',
+		typeSlug: 'visiting-event',
+		title: 'The Garage Visit',
+		description:
+			'They turned a parking lot into an innovation hub🤩\n\nGDG exploring the regions biggest startup district… This is The Garage!!!',
+		image: '/images/events/2025-2026/The Garage Visit.jpeg'
+	},
+	{
+		type: 'Events',
+		typeSlug: 'community-events',
+		title: 'VR Events 🎮',
+		description:
+			'POV: You just stepped into the world of VR 🎮✨',
+		image: '/images/events/2025-2026/VR Events.jpeg'
+	},
+	{
+		type: 'Community Events',
+		typeSlug: 'community-events',
+		title: 'GDG Ramadan Iftar🌙',
+		description:
+			'Let\'s take a look on GDG members last iftar for the holy month ✨🌙',
+		image: '/images/events/2025-2026/GDG Ramadan Iftar.jpeg'
 	}
 ];

@@ -49,7 +49,7 @@
 							</h1>
 							<p class="font-semibold md:text-lg ltr:tracking-wider rtl:mt-2">{event.type}</p>
 						</div>
-						<p class="font-medium leading-relaxed">{event.description}</p>
+						<p class="whitespace-pre-line font-medium leading-relaxed">{event.description}</p>
 					</div>
 
 					<!-- Visible Content -->

@@ -1,9 +1,26 @@
-<script>
+<script lang="ts">
 	import { t } from 'svelte-i18n';
 	import ConnectButton from './ConnectButton.svelte';
+
+	const CLUB_EMAIL = 'gdsc@yu.edu.sa';
+
+	function handleSubmit(e: SubmitEvent) {
+		e.preventDefault();
+		const form = e.target as HTMLFormElement;
+		const firstName = (form.querySelector('#first-name') as HTMLInputElement)?.value ?? '';
+		const lastName = (form.querySelector('#last-name') as HTMLInputElement)?.value ?? '';
+		const email = (form.querySelector('#email') as HTMLInputElement)?.value ?? '';
+		const message = (form.querySelector('#message') as HTMLTextAreaElement)?.value ?? '';
+
+		const subject = `Contact from ${firstName} ${lastName}`;
+		const body = `From: ${email}\n\n${message}`;
+
+		const mailtoUrl = `mailto:${CLUB_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+		window.location.href = mailtoUrl;
+	}
 </script>
 
-<form name="Contact-Us" method="POST" data-netlify="true" class="-m-2 flex flex-wrap font-medium">
+<form name="Contact-Us" onsubmit={handleSubmit} class="-m-2 flex flex-wrap font-medium">
 	<!-- First Name Input -->
 	<div class="w-1/2 p-2">
 		<div class="relative">

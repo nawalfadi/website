@@ -28,6 +28,7 @@
 	"email": "Your Email:",
 	"message": "Your Message:",
 	"send": "Send",
+	"orEmailUs": "Or email us directly at",
 
 	"meta": {
 		"title": "Google DG on Campus | Al Yamamah",
@@ -35,7 +36,7 @@
 	},
 
 	"teams": {
-		"tech": "Tech Team 💻",
+		"tech": "Tech & Innovation 💻",
 		"art": "Art & Creation 🎨",
 		"pr": "Events & PR 📧",
 		"cc": "Content Creators 🤳"
@@ -426,11 +427,11 @@
 		},
 		"26name11": {
 			"name": "Ahmad Ghanoum",
-			"position": "Design Team"
+			"position": "Design Leader"
 		},
 		"26name12": {
 			"name": "Mays Alawi",
-			"position": "Design Team"
+			"position": "Design Leader"
 		}
 	},
 
